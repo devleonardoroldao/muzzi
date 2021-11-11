@@ -27,7 +27,7 @@
             <use xlink:href="#icon-user"></use>
           </svg><span class="hidden">E-mail</span></label>
         <input autocomplete="username" id="login__username" 
-        type="email" name="email" class="form__input" placeholder="E-mail" autocomplete="off" required>
+        type="email" name="email" class="form__input" maxlength="75" placeholder="E-mail" autocomplete="off" required>
       </div>
 
       <div class="form__field">
@@ -35,7 +35,7 @@
             <use xlink:href="#icon-lock"></use>
           </svg><span class="hidden">Senha</span></label>
         <input id="login__password" type="password" name="password"
-         class="form__input" placeholder="Senha" autocomplete="off" required>
+         class="form__input" placeholder="Senha" maxlength="7" autocomplete="off" required>
       </div>
 
       <div class="form__field">
