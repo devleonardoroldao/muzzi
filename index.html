@@ -6,7 +6,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,200&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet"><link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 <style>
 .logo {font-family: Josefin Sans; font-size:3.5em; padding:0; margin:0}
 </style>
@@ -25,14 +26,16 @@
         <label for="login__username"><svg class="icon">
             <use xlink:href="#icon-user"></use>
           </svg><span class="hidden">E-mail</span></label>
-        <input autocomplete="username" id="login__username" type="text" name="email" class="form__input" placeholder="E-mail" required>
+        <input autocomplete="username" id="login__username" 
+        type="text" name="email" class="form__input" placeholder="E-mail" autocomplete="off" required>
       </div>
 
       <div class="form__field">
         <label for="login__password"><svg class="icon">
             <use xlink:href="#icon-lock"></use>
           </svg><span class="hidden">Senha</span></label>
-        <input id="login__password" type="password" name="password" class="form__input" placeholder="Senha" required>
+        <input id="login__password" type="password" name="password"
+         class="form__input" placeholder="Senha" autocomplete="off" required>
       </div>
 
       <div class="form__field">
