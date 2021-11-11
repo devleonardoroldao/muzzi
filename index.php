@@ -27,7 +27,7 @@
             <use xlink:href="#icon-user"></use>
           </svg><span class="hidden">E-mail</span></label>
         <input autocomplete="username" id="login__username" 
-        type="text" name="email" class="form__input" placeholder="E-mail" autocomplete="off" required>
+        type="email" name="email" class="form__input" placeholder="E-mail" autocomplete="off" required>
       </div>
 
       <div class="form__field">
@@ -66,4 +66,7 @@
 <!-- partial -->
   
 </body>
+
+<script type="text/javascript" src="<?php echo PATH;?>/js/jquery.mask.min.js"></script>
+<script type="text/javascript" src="<?php echo PATH;?>/js/validate.js"></script>
 </html>

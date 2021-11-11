@@ -187,6 +187,7 @@ input[type="submit"] {
 
 .login label,
 .login input[type="text"],
+.login input[type="email"],
 .login input[type="password"],
 .login input[type="submit"] {
   border-radius: 0.25rem;
@@ -204,13 +205,15 @@ input[type="submit"] {
 }
 
 .login input[type="password"],
+.login input[type="email"],
 .login input[type="text"] {
   background-color: #3b4148;
   background-color: var(--loginInputBackgroundColor);
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
 }
-
+.login input[type="email"]:focus,
+.login input[type="email"]:hover,
 .login input[type="password"]:focus,
 .login input[type="password"]:hover,
 .login input[type="text"]:focus,
