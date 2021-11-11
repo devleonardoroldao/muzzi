@@ -175,9 +175,9 @@ input[type="submit"] {
 
   --loginLabelBackgroundColor: #363b41;
 
-  --loginSubmitBackgroundColor: #ea4c88;
+  --loginSubmitBackgroundColor: rgb(35, 203, 167, 1);
   --loginSubmitColor: #eee;
-  --loginSubmitHoverBackgroundColor: #d44179;
+  --loginSubmitHoverBackgroundColor: #000;
 }
 
 .login {
@@ -220,7 +220,7 @@ input[type="submit"] {
 }
 
 .login input[type="submit"] {
-  background-color: #ea4c88;
+  background-color: rgb(35, 203, 167, 1);
   background-color: var(--loginSubmitBackgroundColor);
   color: #eee;
   color: var(--loginSubmitColor);
@@ -230,7 +230,7 @@ input[type="submit"] {
 
 .login input[type="submit"]:focus,
 .login input[type="submit"]:hover {
-  background-color: #d44179;
+  background-color: #000;
   background-color: var(--loginSubmitHoverBackgroundColor);
 }
 
